@@ -1,0 +1,28 @@
+body,
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #1f2937;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between; /* Align Logo to the left and right-links to the right */
+  align-items: center; /* Vertically center both Logo and right-links */
+}
+
+.right-links {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.Logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f9faf8;
+  font-size: 24px;
+}
