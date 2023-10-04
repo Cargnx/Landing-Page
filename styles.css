@@ -10,6 +10,7 @@ header {
   display: flex;
   justify-content: space-between; /* Align Logo to the left and right-links to the right */
   align-items: center; /* Vertically center both Logo and right-links */
+  padding-right: 20px;
 }
 
 .right-links {
@@ -19,10 +20,83 @@ header {
   display: flex;
   gap: 20px;
   list-style: none;
+  padding-left: 200px;
 }
 
 .Logo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f9faf8;
   font-size: 24px;
+  padding-right: 200px;
+}
+
+.TopContainer {
+  background: #1f2937;
+  padding: 2px;
+  padding-bottom: 160px;
+  padding-left: 160px;
+}
+
+.TopContainer li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style: none;
+  color: #f9faf8;
+}
+
+.title {
+  display: flex;
+  font-size: 48px;
+  inline-size: 500px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.subtext {
+  inline-size: 400px;
+  margin-bottom: 30px;
+}
+
+.Button {
+  display: flex;
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 44px;
+  height: 40px;
+  line-height: 45px;
+  border-radius: 7px;
+  background-color: #0070f3;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+  :hover {
+    background: rgba(0, 118, 255, 0.9);
+    box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+  }
+}
+
+.Button {
+  margin-left: 40px;
+}
+
+.ImgPlaceholder {
+  display: flex;
+  justify-content: end;
+  margin-top: -250px;
+  margin-right: 210px;
+}
+
+.ImgText {
+  background-color: gray;
+  padding: 120px;
+  border: 2px solid #333;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f9faf8;
+  width: 250px;
 }
